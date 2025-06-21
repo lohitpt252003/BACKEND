@@ -1,0 +1,26 @@
+{
+  "problem_id": 10,
+  "title": "XOR from l to r",
+  "statement": "You are given two integers l and r (1 <= l <= r < 10^18). Your task is to compute the XOR of all integers from l to r, i.e., l ⊕ (l+1) ⊕ ... ⊕ r.",
+  "input_format": "The first and only line contains two integers l and r.",
+  "output_format": "Print a single integer — the result of XOR of all numbers from l to r.",
+  "constraints": {
+    "1 <= l <= r < 1000000000000000000": true
+  },
+  "time_limit": "1s",
+  "sample_testcases": [
+    {
+      "input": "2 4\n",
+      "output": "5\n"
+    },
+    {
+      "input": "5 9\n",
+      "output": "13\n"
+    },
+    {
+      "input": "1 10\n",
+      "output": "11\n"
+    }
+  ],
+  "tags": ["Bit Manipulation", "XOR", "Math", "Prefix XOR", "Optimized Calculation"]
+}
